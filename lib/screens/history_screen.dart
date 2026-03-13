@@ -156,7 +156,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
                           ),
                           const SizedBox(height: 4),
                           Text(
-                            'Confidence: ${(item.confidence * 100).toStringAsFixed(2)}%',
+                            'Confidence: ${item.confidence.toStringAsFixed(2)}%',
                             style: TextStyle(fontSize: 14, color: Colors.grey.shade700),
                           ),
                           const SizedBox(height: 4),
